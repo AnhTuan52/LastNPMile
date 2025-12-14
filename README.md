@@ -54,6 +54,8 @@ Bước 4: So Sánh Và Phát Hiện Phantom (step4.py)
   Code step4.py (dùng sets trừ để tìm phantom).
   Chạy cho malicious và benign (chỉnh input file tương ứng).
   Chạy: python3 step4.py – tạo malicious_result.json và benign_result.json.
+  
 KẾT QUẢ:
+
      Sạch: Tỉ lệ <5% (hoặc thấp như 0.6% ở benign ) – gói an toàn, phantom chỉ do thay đổi nhỏ
      Bị độc: Tỉ lệ >20% (hoặc cao như 41% lines ở malicious ) – nghi ngờ chèn độc, cần kiểm tra thủ công 
